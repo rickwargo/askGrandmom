@@ -1,0 +1,39 @@
+AskGrandmomIntent {Something}
+AskGrandmomIntent a {Something}
+AskGrandmomIntent an {Something}
+AskGrandmomIntent the {Something}
+AskGrandmomIntent some {Something}
+AskGrandmomIntent can I have {Something}
+AskGrandmomIntent can I have a {Something}
+AskGrandmomIntent can I have an {Something}
+AskGrandmomIntent can I have the {Something}
+AskGrandmomIntent can I have some {Something}
+AskGrandmomIntent I can have {Something}
+AskGrandmomIntent I can have a {Something}
+AskGrandmomIntent I can have an {Something}
+AskGrandmomIntent I can have the {Something}
+AskGrandmomIntent I can have some {Something}
+AskGrandmomIntent if I can have {Something}
+AskGrandmomIntent if I can have a {Something}
+AskGrandmomIntent if I can have an {Something}
+AskGrandmomIntent if I can have the {Something}
+AskGrandmomIntent if I can have some {Something}
+AskGrandmomIntent what about {Something}
+AskGrandmomIntent what about a {Something}
+AskGrandmomIntent what about an {Something}
+AskGrandmomIntent what about the {Something}
+AskGrandmomIntent what about some {Something}
+
+AskForMoneyIntent can I have {Amount} {Monies}
+AskForMoneyIntent I would like {Amount} {Monies}
+AskForMoneyIntent I want {Amount} {Monies}
+AskForMoneyIntent I need {Amount} {Monies}
+AskForMoneyIntent give me {Amount} {Monies}
+AskForMoneyIntent {Amount} {Monies}
+
+AskForMoneyIntent can I have a {Amount} {Monies}
+AskForMoneyIntent I would like a {Amount} {Monies}
+AskForMoneyIntent I want a {Amount} {Monies}
+AskForMoneyIntent I need a {Amount} {Monies}
+AskForMoneyIntent give me a {Amount} {Monies}
+AskForMoneyIntent a {Amount} {Monies}
