@@ -13,11 +13,6 @@ AskGrandmomIntent I can have a {Something}
 AskGrandmomIntent I can have an {Something}
 AskGrandmomIntent I can have the {Something}
 AskGrandmomIntent I can have some {Something}
-AskGrandmomIntent if I can have {Something}
-AskGrandmomIntent if I can have a {Something}
-AskGrandmomIntent if I can have an {Something}
-AskGrandmomIntent if I can have the {Something}
-AskGrandmomIntent if I can have some {Something}
 AskGrandmomIntent what about {Something}
 AskGrandmomIntent what about a {Something}
 AskGrandmomIntent what about an {Something}

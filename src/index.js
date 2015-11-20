@@ -63,7 +63,7 @@ AskGrandmom.prototype.intentHandlers = {
     },
 
     "AMAZON.CancelIntent": function (intent, session, response) {
-        var speechOutput = "Okay. Canceled.";
+        var speechOutput = "Grandmom loves you so much. Goodbye.";
         response.tell(speechOutput);
     }
 };
@@ -112,9 +112,11 @@ function handleAskGrandmomIntent(intent, session, response) {
 
     var desireResponse = desires[somethingName];
 
+    console.log('something: ' + somethingName);
+    console.log('desireResponse: ' + desireResponse);
     if (desireResponse) {
         if (somethingName.indexOf('money') > -1) {
-            response.ask("How much would you like to ask Grandmom for?", "You can ask for some amount of dollars");
+            response.ask("How much would you like to ask Grandmom for?", "You can ask for some amount of dollars.");
         } else {
             response.tell(desireResponse);
         }
@@ -133,7 +135,7 @@ function handleAskForMoneyIntent(intent, session, response) {
     console.log("monies:'" + monies.value + "'");
 
     if (isNaN(amount)) {
-        response.ask('Sorry, I did not hear how much you wanted, please say that again', 'please say the amount again');
+        response.ask('Sorry, I did not hear how much you wanted, please say that again', 'please say the amount again.');
         return;
     }
 
